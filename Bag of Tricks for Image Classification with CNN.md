@@ -18,14 +18,14 @@
 4.  section 5에서 추가적인 학습 과정의 개선에 대해 논의함.
 5.  마지막으로, section 6에서 이러한 model의 개선이 전이학습에 도움이 되는지 알아봄.
 
-# Training Procedures   
+## Training Procedures   
 ![알고리즘1](https://i.ibb.co/GJ2cmCx/algo1.png)
 - 위의 알고리즘에 의해 학습을 진행함.
 - 매 iteration에서 b(batch_size) 개의 이미지를 뽑아 계산하고, network parameter에 반영.
 -  K epoch 학습 진행 후 학습을 멈춤.
 
-## Baseline Training Procedure
+### Baseline Training Procedure
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
 -->
