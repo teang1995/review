@@ -25,7 +25,9 @@
 -  K epoch 학습 진행 후 학습을 멈춤.
 
 ### Baseline Training Procedure
-
+1.  이미지를 임의로 샘플링해 32bit float형으로 디코딩함.
+2.  이미지를 rando
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbLTE0NDY5NzkxODksMTI1MTg2MzU0NywxND
+YwMTc0MTE3XX0=
 -->
