@@ -26,8 +26,11 @@
 
 ### Baseline Training Procedure
 1.  이미지를 임의로 샘플링해 32bit float형으로 디코딩함.
-2.  이미지를 rando
+2.  이미지를 random - crop하여 224 * 224 size로 resize함.
+3.  0.5의 확률로 horizontal flip 수행.
+4.  hue,saturation,brightness를 [0.6,1.4] 에 따른 정규화함.
+5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDY5NzkxODksMTI1MTg2MzU0NywxND
+eyJoaXN0b3J5IjpbLTEwNTAyODY5OTEsMTI1MTg2MzU0NywxND
 YwMTc0MTE3XX0=
 -->
