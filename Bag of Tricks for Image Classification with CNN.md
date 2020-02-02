@@ -29,8 +29,9 @@
 2.  이미지를 random - crop하여 224 * 224 size로 resize함.
 3.  0.5의 확률로 horizontal flip 수행.
 4.  hue,saturation,brightness를 [0.6,1.4] 에 따른 정규화함.
-5.  pca noise를 추가해 
+5.  pca noise를 추가해 ???
+6.  RGB channel을 각각 [123.68,58.393], [116.779,57.1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0Nj
-AxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbLTM2MDAwMzgxMywtMjYxMjI3ODkxLDEyNT
+E4NjM1NDcsMTQ2MDE3NDExN119
 -->
