@@ -54,9 +54,11 @@
 
 	#### A1. Linear scaling learning rate
 	 - SGD 에서 batch size를 키우면 그 기댓값은 일정하지만, variance는 줄어듦.
+	 - 배치 크기를 키우면, 노이즈가 줄어든다는 의미.
+	 - 이를 통해 learning rate를 키울 수 있게 됨.
 	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU3MTE3MzYsLTQzMTQyNTE0MywtNj
-Y3NjQ3NDk2LC0yNjEyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0
-MTE3XX0=
+eyJoaXN0b3J5IjpbMTgyNTU3NTEwNywtMTkyNTcxMTczNiwtND
+MxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYz
+NTQ3LDE0NjAxNzQxMTddfQ==
 -->
