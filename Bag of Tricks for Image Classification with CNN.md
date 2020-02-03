@@ -132,10 +132,11 @@ ResNet baseline과 ResNet - B,C,D의 성능 비교.
     2. 전체 batch수를 T, 현재 batch 수를 t, learning rate의 초기값을 $\eta$라 함.
     3. 그 때, batch t에서의 learning rate는 다음과 같음.
     $\eta_t=\frac 1 2(1+cos(\frac \pi T t))\eta$ 
-
+- step decay와 다르게 learning rate가 천천히 가소되는 것을 확인할 수 있음.
+- 이는 또한 학습 과정을 개선시킴.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxNDA4NTk5LC0yMDU1NDg4NjgyLDc5MD
-k4MDc4NiwtNzI5ODg0MzkwLDE1ODY3NDc5MzgsLTE5MjU3MTE3
-MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4OTEsMT
-I1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbLTg5Njc3NTUxMCwtMjA1NTQ4ODY4Miw3OT
+A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
+NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
+EyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
