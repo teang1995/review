@@ -68,10 +68,11 @@
 	- resNet은 여러 개의 residual block으로 구성됨.
 	- 입력이 $x$ 일 때, 출력은 $x + block(x)$으로 표현할 수 있음.
 	- block의 마지막엔 BN(batch normalization) 적용.
-	- 입력값 $x$에 정규화를 적용한 결과를 $\hat x$라 하고, 
+	- BN은 입력값 $x$에 정규화를 적용한 결과를 $\hat x$라 하고,  이에 대해 $\gamma\hat x + \beta$ 반환.
+	- $\gamma$,$\beta$는 모두 하
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NzM0ODAwLDE1ODY3NDc5MzgsLTE5Mj
-U3MTE3MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4
-OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbLTEwOTYzNjM2NzcsMTU4Njc0NzkzOCwtMT
+kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
+Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
