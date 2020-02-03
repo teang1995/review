@@ -78,9 +78,11 @@
 	- 이는 conv layer, fc layer에만 적용되고,BN에는 적용되지 않음.
 
 ### B. Low- precision training
-- 
+- 신경망은 대부분 32bit floating point type으로 학습 진행.
+- 이는 저장과 연산에도 해당되는 내용.
+- 최근의 하드웨어는 더 작은 크기의 데이터 타입에서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTQ2OTExNCwxNTg2NzQ3OTM4LC0xOT
-I1NzExNzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3
-ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbLTE1OTY0MDc0OTgsMTU4Njc0NzkzOCwtMT
+kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
+Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
