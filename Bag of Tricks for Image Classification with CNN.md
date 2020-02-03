@@ -92,12 +92,14 @@ batch size를 증가시키고, 제안된 heuristics를 적용시켰을 때의 �
 
 
 ## Model Tweaks
-- tweaks는 conv layer를 약간 수정하는(ex 
+- tweaks는 conv layer를 약간 수정하는(ex. stride) 작업을 말함.
+- 이는 기존 모델의 계산 복잡도를 바꾸지만, 모델의 정확도 향상에 유의미한 영향을 주기도 함.
+-  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDY4MDU1NywtNzI5ODg0MzkwLDE1OD
-Y3NDc5MzgsLTE5MjU3MTE3MzYsLTQzMTQyNTE0MywtNjY3NjQ3
-NDk2LC0yNjEyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX
-0=
+eyJoaXN0b3J5IjpbNDI1Nzk3Nzk1LC03Mjk4ODQzOTAsMTU4Nj
+c0NzkzOCwtMTkyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0
+OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ
+==
 -->
