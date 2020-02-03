@@ -98,10 +98,11 @@ batch size를 증가시키고, 제안된 heuristics를 적용시켰을 때의 �
 
 ### ResNet Architecture
 
+![enter image description here](https://ifh.cc/g/5hXoz.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwOTgwNzg2LC03Mjk4ODQzOTAsMTU4Nj
-c0NzkzOCwtMTkyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0
-OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ
-==
+eyJoaXN0b3J5IjpbLTYwMzYzNjUwMSw3OTA5ODA3ODYsLTcyOT
+g4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzExNzM2LC00MzE0MjUx
+NDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4NjM1NDcsMT
+Q2MDE3NDExN119
 -->
