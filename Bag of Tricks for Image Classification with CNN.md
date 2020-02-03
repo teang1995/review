@@ -48,8 +48,9 @@
 -  해당 섹션에서는 위의 두 방법들을 model의 정확도를 희생시키지 않고 사용하게 할 수 있는 다양한 기술에 대해 논의하고자 함.
 
 ###  A. Large-batch training
-
+- convex문제를 풀 때, batch size
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNj
-EyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbLTIwNjQ1NzYyNTAsLTQzMTQyNTE0MywtNj
+Y3NjQ3NDk2LC0yNjEyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0
+MTE3XX0=
 -->
