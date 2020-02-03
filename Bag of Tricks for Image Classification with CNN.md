@@ -130,10 +130,11 @@ ResNet baseline과 ResNet - B,C,D의 성능 비교.
 - Loshchilov은 cosine annealing기법을 제안.
 	1.초기값이 0인 learning rate에서 cosine함수값에 따라 값을 결정함.
     2. 전체 batch수를 T, 현재 batch 수를 t라 함.
-    3. 그 때, batch t에서 
+    3. 그 때, batch t에서의 learning rate는 다음과 같음.
+    $\eta_t=$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzM5NzIwOSwtMjA1NTQ4ODY4Miw3OT
-A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
-NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
-EyNTE4NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbODgzODQzNjI4LC0yMDU1NDg4NjgyLDc5MD
+k4MDc4NiwtNzI5ODg0MzkwLDE1ODY3NDc5MzgsLTE5MjU3MTE3
+MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4OTEsMT
+I1MTg2MzU0NywxNDYwMTc0MTE3XX0=
 -->
