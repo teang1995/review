@@ -147,9 +147,11 @@ cosine decay와 step decay의 성능 비교
 ### Knowledge Distillation
 - 먼저 잘 학습된 model(teacher model)를 새로 학습시킬 model이 학습하도록 하는 것.
 - 학습 과정에 distillation loss를 추가해 teacher model과의 차이를 줄이도록 한다. 
-- p가 정답의 확률  분포, z와 r은 각각 student,teacher model의 fc layer의 출력갑
+- p가 정답의 확률  분포, z와 r은 각각 student,teacher model의 fc layer의 출력이라 하자.
+- 이  때 새로운 loss가 다음과 같이 정의된다.
+- $L(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzk5NjI4MywtMjAwMzAzOTc2LDIxND
+eyJoaXN0b3J5IjpbMTQwNDU1NDYxMywtMjAwMzAzOTc2LDIxND
 A4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgwNzg2LC03Mjk4ODQz
 OTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNiwtNDMxNDI1MTQzLC
 02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAx
