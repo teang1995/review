@@ -124,9 +124,9 @@ ResNet baseline과 ResNet - B,C,D의 성능 비교.
 
 ### Cosine Leaning Rate Decay
 - Learning rate의 조절은 학습에 매우 중요함.
-- 
+- 앞서 언급된 warm - up 이후, 초기값으로부터 learning rate르
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDU4OTI4NCwtMjA1NTQ4ODY4Miw3OT
+eyJoaXN0b3J5IjpbLTIxNzg3Mzc0NiwtMjA1NTQ4ODY4Miw3OT
 A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
 NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
 EyNTE4NjM1NDcsMTQ2MDE3NDExN119
