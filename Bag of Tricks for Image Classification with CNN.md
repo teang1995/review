@@ -86,11 +86,14 @@
 - Micikevicius는 FP16으로만 구성된 신경망을 구성하고, 학습 과정에서 FP32로 복사하는 모델을 제안함.
 
 ### Experiment Results
-![Table3](https://ifh.cc/g/A0eCz.png)
+<b![Table3](https://ifh.cc/g/A0eCz.png)
+batch size를 증가시키고, FP16을 사용했을 때의 성능 향상.![enter image description here](https://ifh.cc/g/gJRxr.png)
+<br>
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTE3NTEwNCwtNzI5ODg0MzkwLDE1OD
-Y3NDc5MzgsLTE5MjU3MTE3MzYsLTQzMTQyNTE0MywtNjY3NjQ3
-NDk2LC0yNjEyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX
-0=
+eyJoaXN0b3J5IjpbLTE2ODU2NTgzNDYsLTcyOTg4NDM5MCwxNT
+g2NzQ3OTM4LC0xOTI1NzExNzM2LC00MzE0MjUxNDMsLTY2NzY0
+NzQ5NiwtMjYxMjI3ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN1
+19
 -->
