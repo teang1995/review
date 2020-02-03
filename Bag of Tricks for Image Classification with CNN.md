@@ -105,9 +105,12 @@ batch size를 증가시키고, 제안된 heuristics를 적용시켰을 때의 �
 ![enter image description here](https://ifh.cc/g/g2aax.jpg)
 
 ### ResNet-B
+- stride = 2인 layer를 1*1conv layer와 순서를 바꾸어 손실되는 정보가 없게 함.
 
+### ResNet-C
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgwMzE2NDksNzkwOTgwNzg2LC03Mj
+eyJoaXN0b3J5IjpbLTIwNTU0ODg2ODIsNzkwOTgwNzg2LC03Mj
 k4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNiwtNDMxNDI1
 MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LD
 E0NjAxNzQxMTddfQ==
