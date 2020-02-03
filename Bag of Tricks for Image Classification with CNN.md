@@ -33,11 +33,13 @@
 6.  RGB channel을 각각 [123.68,58.393], [116.779,57.12],[103.939,57.375]에 따라 정규화함.
 
 - Validation 중 짧은 쪽을 256 pixel로 resize하고, 224 * 224 size로 center crop함. 
+- conv layer, fcn의 
 -  batch normalization의 감마는1, 베타는 0으로 초기화.
+-  모든 bias는 0으로 초기화됨.
 -  optimizer는 NAG(Nesterov Accelerated Gradient)가 사용됨. 
 -  8개의 Nvidia V100 Gpu가 사용됐고, 배치 사이즈는 256으로 설정
--  learning rate는 0.1로 초기화돼어
+-  learning rate는 0.1로 초기화되고, 30 epoch마다 1/10으로 줄어듦.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI3MTY1NjUsLTY2NzY0NzQ5NiwtMj
-YxMjI3ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbLTUyMTY1OTU0MywtNjY3NjQ3NDk2LC0yNj
+EyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
 -->
