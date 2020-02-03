@@ -105,7 +105,7 @@ batch size를 증가시키고, 제안된 heuristics를 적용시켰을 때의 �
 ![enter image description here](https://ifh.cc/g/g2aax.jpg)
 
 ### ResNet-B
-- stride = 2인 layer를 1*1conv layer와 순서를 바꾸어 손실되는 정보가 없게 함.
+- stride = 2인 layer를 1x1conv layer와 순서를 바꾸어 손실되는 정보가 없게 함.
 
 ### ResNet-C
 - Input Stem을 바꾼 tweak.
@@ -138,10 +138,10 @@ ResNet baseline과 ResNet - B,C,D의 성능 비교.
 cosine decay와 step decay의 성능 비교
 
 ### Label Smoothing
-
+-  image classification을 위한 신경망의 마지막 단은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzMzMTQxLC0yMDU1NDg4NjgyLDc5MD
-k4MDc4NiwtNzI5ODg0MzkwLDE1ODY3NDc5MzgsLTE5MjU3MTE3
-MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4OTEsMT
-I1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbMjE0MDg3NDA2OCwtMjA1NTQ4ODY4Miw3OT
+A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
+NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
+EyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
