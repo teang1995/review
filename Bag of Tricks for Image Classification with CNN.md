@@ -165,13 +165,18 @@ label3 = $\lambda$ label1 + $(1-\lambda)$label2
 - 네 개의 refinements들에 대해 실험 진행.
 	1. cosine learning rate decay 적용함.
 	2. $\epsilon = 0.1$로 두고 label smoothing.
-	3. distillation 위해 T=20으로 두고, teacher model은 ResNet-D-
+	3. distillation 위해 T=20으로 두고, teacher model은 ResNet-D-152가 사용됨.
+	4. mixup model에서 $\alpha = 0.2$로 두고 200epoch동안 학습 진행.
+
+- distillation은 ResNet에선 잘 작동했지만 Incep
+- 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTUzMDU1MSwxNDA0NTU0NjEzLC0yMD
-AzMDM5NzYsMjE0MDg3NDA2OCwtMjA1NTQ4ODY4Miw3OTA5ODA3
-ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzExNzM2LC
-00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4
-NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbLTE1OTY5OTUzOTYsMTQwNDU1NDYxMywtMj
+AwMzAzOTc2LDIxNDA4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgw
+Nzg2LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNi
+wtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUx
+ODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
