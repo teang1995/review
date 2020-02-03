@@ -41,8 +41,10 @@
 -  learning rate는 0.1로 초기화되고, 30 epoch마다 1/10으로 줄어듦.
 
 ### Experiment Results
+![table2](https://ifh.cc/g/Fy8gB.png)
 
+## Effic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTIyNDQ3MTQsLTY2NzY0NzQ5NiwtMj
-YxMjI3ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbLTczNDIxNzc1LC02Njc2NDc0OTYsLTI2MT
+IyNzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
