@@ -157,10 +157,14 @@ cosine decay와 step decay의 성능 비교
 - (img1,label1),(img2,label2) 두 개의 sample이 있을 때, 다음과 같은 하나의 샘플을 만들어 학습에 사용하는 것을 말함.
 img3 = $\lambda$img1 + $(1-\lambda)$img2
 label3 = $\lambda$ label1 + $(1-\lambda)$label2
-- $\lambda$는 [0,1]에서 Beta($\$
+- $\lambda$는 [0,1]에서 Beta($\alpha$,$\alpha$)의 분포를 따라서 임의로 추출된 변수.
+
+### Experiments Results
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc4NjcxNjcsMTQwNDU1NDYxMywtMj
+eyJoaXN0b3J5IjpbLTIxMTA5Mjg0ODEsMTQwNDU1NDYxMywtMj
 AwMzAzOTc2LDIxNDA4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgw
 Nzg2LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNi
 wtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUx
