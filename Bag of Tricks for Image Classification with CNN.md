@@ -43,8 +43,10 @@
 ### Experiment Results
 ![table2](https://ifh.cc/g/Fy8gB.png)
 
-## Effic
+## Efficient Training
+- GPU의 발전으로 더 큰 batch size ,  더 낮은 numerical precision을 사용하는 것이 효율적이게 됨.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDIxNzc1LC02Njc2NDc0OTYsLTI2MT
-IyNzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbMTQ5NTY2MzA4MSwtNjY3NjQ3NDk2LC0yNj
+EyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
 -->
