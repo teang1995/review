@@ -80,9 +80,10 @@
 ### B. Low- precision training
 - 신경망은 대부분 32bit floating point type으로 학습 진행.
 - 이는 저장과 연산에도 해당되는 내용.
-- 최근의 하드웨어는 더 작은 크기의 데이터 타입에서 
+- 최근의 하드웨어는 더 작은 크기의 데이터 타입의 연산에서 좋은 결과를 보임.
+- 예를 들면, V100을 기준으로 FP32에서 FP16dmfh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY0MDc0OTgsMTU4Njc0NzkzOCwtMT
-kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
-Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbMjIzMjczMTIyLDE1ODY3NDc5MzgsLTE5Mj
+U3MTE3MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4
+OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
 -->
