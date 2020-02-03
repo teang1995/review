@@ -120,10 +120,14 @@ batch size를 증가시키고, 제안된 heuristics를 적용시켰을 때의 �
 ResNet baseline과 ResNet - B,C,D의 성능 비교.
 
 ## Training Refinements
-해당 섹션에서는 모델의 정확도를 위한 training refinements들에 대해 ㄴ
+해당 섹션에서는 모델의 정확도를 위한 training refinements들에 대해 서술함.
+
+### Cosine Leaning Rate Decay
+- Learning rate의 조절은 학습에 매우 중요함.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MTc5Njc1LC0yMDU1NDg4NjgyLDc5MD
-k4MDc4NiwtNzI5ODg0MzkwLDE1ODY3NDc5MzgsLTE5MjU3MTE3
-MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4OTEsMT
-I1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbLTYwNDU4OTI4NCwtMjA1NTQ4ODY4Miw3OT
+A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
+NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
+EyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
