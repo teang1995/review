@@ -77,9 +77,10 @@
 	- 이는 모든 파라미터에 L2 regularization을 적용하는 것과 비슷하여, 그 값들을 0에 수렴하게 함.
 	- 이는 conv layer, fc layer에만 적용되고,BN에는 적용되지 않음.
 
-### B. Low- precision
+### B. Low- precision training
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTcxMTU0NywxNTg2NzQ3OTM4LC0xOT
+eyJoaXN0b3J5IjpbMTIwOTQ2OTExNCwxNTg2NzQ3OTM4LC0xOT
 I1NzExNzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3
 ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
