@@ -62,9 +62,11 @@
 	- 학습 초반엔 모든 파라미터들이 랜덤으로 초기화돼있음.
 	- 너무 큰 learning rate를 사용하는 것은 수치적으로 불안정한 상태를 야기함.
 	- 따라서, 매우 작은 learning rate로 출발해  특정 시점까지 원하는 learning ratedp 도달하게 함.
-	- 
+	- Goyal은 0에서 시작해 **선형적**으로 learning rate를 증가시키는 방법을 제안.(5epoch까지 warm-up을 적용함.)
+
+	###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzkxMTUxNywtMTkyNTcxMTczNiwtND
+eyJoaXN0b3J5IjpbLTUzNDY3OTYyOCwtMTkyNTcxMTczNiwtND
 MxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYz
 NTQ3LDE0NjAxNzQxMTddfQ==
 -->
