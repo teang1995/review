@@ -155,13 +155,14 @@ cosine decay와 step decay의 성능 비교
 ### Mixup Training
 - Mixup이란, 이미지 두 개를 섞는 augmentation기법.
 - (img1,label1),(img2,label2) 두 개의 sample이 있을 때, 다음과 같은 하나의 샘플을 만들어 학습에 사용하는 것을 말함.
-img3 = $\lambda$
-label3 = $\lambda$
+img3 = $\lambda$img1 + $(1-\lambda)$img2
+label3 = $\lambda$ label1 + $(1-\lambda)$label2
+- $\lambda$는 [0,1]에서 Beta($\$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMTI4NDAsMTQwNDU1NDYxMywtMjAwMz
-AzOTc2LDIxNDA4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgwNzg2
-LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNiwtND
-MxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYz
-NTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbLTEzMzc4NjcxNjcsMTQwNDU1NDYxMywtMj
+AwMzAzOTc2LDIxNDA4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgw
+Nzg2LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNi
+wtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUx
+ODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
