@@ -131,10 +131,10 @@ ResNet baseline과 ResNet - B,C,D의 성능 비교.
 	1.초기값이 0인 learning rate에서 cosine함수값에 따라 값을 결정함.
     2. 전체 batch수를 T, 현재 batch 수를 t라 함.
     3. 그 때, batch t에서의 learning rate는 다음과 같음.
-    $\eta_t=$ 
+    $\eta_t=\frac 1 2(1+cos(\frac t$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzODQzNjI4LC0yMDU1NDg4NjgyLDc5MD
-k4MDc4NiwtNzI5ODg0MzkwLDE1ODY3NDc5MzgsLTE5MjU3MTE3
-MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4OTEsMT
-I1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbLTEzMjcxNTIzNTYsLTIwNTU0ODg2ODIsNz
+kwOTgwNzg2LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcx
+MTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MS
+wxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
