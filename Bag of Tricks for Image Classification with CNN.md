@@ -128,9 +128,11 @@ ResNet baseline과 ResNet - B,C,D의 성능 비교.
 - 가장 많이 사용되는 방법은0.1의 초기값에서  30 epoch마다 일정 비율로 감소시키는 "step decay".
 - 2 epoch마다 0.94의 비율로 감소시키기도 함.
 - Loshchilov은 cosine annealing기법을 제안.
-	1.초기값이 0인 
+	1.초기값이 0인 learning rate에서 cosine함수값에 따라 값을 결정함.
+    2. 전체 batch수를 T, 현재 batch 수를 t라 함.
+    3. 그 때, batch t에서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTc1NTgwNiwtMjA1NTQ4ODY4Miw3OT
+eyJoaXN0b3J5IjpbLTY1NzM5NzIwOSwtMjA1NTQ4ODY4Miw3OT
 A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
 NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
 EyNTE4NjM1NDcsMTQ2MDE3NDExN119
