@@ -85,8 +85,12 @@
 - 이러한 장점에도 불구하고, FP16은 표현할 수 있는 범위가 적어 학습 과정에서 문제가 발생함.
 - Micikevicius는 FP16으로만 구성된 신경망을 구성하고, 학습 과정에서 FP32로 복사하는 모델을 제안함.
 
+### Experiment Results
+![Table3](https://ifh.cc/g/A0eCz.png)
+-dd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOT
-I1NzExNzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3
-ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbMTcxOTgyMjQwNywtNzI5ODg0MzkwLDE1OD
+Y3NDc5MzgsLTE5MjU3MTE3MzYsLTQzMTQyNTE0MywtNjY3NjQ3
+NDk2LC0yNjEyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX
+0=
 -->
