@@ -69,10 +69,10 @@
 	- 입력이 $x$ 일 때, 출력은 $x + block(x)$으로 표현할 수 있음.
 	- block의 마지막엔 BN(batch normalization) 적용.
 	- BN은 입력값 $x$에 정규화를 적용한 결과를 $\hat x$라 하고,  이에 대해 $\gamma\hat x + \beta$ 반환.
-	- $\gamma$,$\beta$는 모두 하
-	
+	- $\gamma$,$\beta$는 각각 1,0으로 초기화되는 학습 가능한 파라미터들.
+	- 따라서 초기에는 입력이 그대로 전달돼 학습이 빨라지게 ㄷ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYzNjM2NzcsMTU4Njc0NzkzOCwtMT
+eyJoaXN0b3J5IjpbLTE5MzExNjQzMjcsMTU4Njc0NzkzOCwtMT
 kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
 Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
