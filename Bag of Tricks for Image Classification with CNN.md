@@ -124,9 +124,12 @@ ResNet baseline과 ResNet - B,C,D의 성능 비교.
 
 ### Cosine Leaning Rate Decay
 - Learning rate의 조절은 학습에 매우 중요함.
-- 앞서 언급된 warm - up 이후, 초기값으로부터 learning rate르
+- 앞서 언급된 warm - up 이후, 초기값으로부터 learning rate를 감소시킴.
+- 가장 많이 사용되는 방법은0.1의 초기값에서  30 epoch마다 일정 비율로 감소시키는 "step decay".
+- 2
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzg3Mzc0NiwtMjA1NTQ4ODY4Miw3OT
+eyJoaXN0b3J5IjpbLTE0NTYyNDg4NywtMjA1NTQ4ODY4Miw3OT
 A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
 NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
 EyNTE4NjM1NDcsMTQ2MDE3NDExN119
