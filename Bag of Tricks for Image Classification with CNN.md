@@ -45,8 +45,10 @@
 
 ## Efficient Training
 - GPU의 발전으로 더 큰 batch size ,  더 낮은 numerical precision을 사용하는 것이 효율적이게 됨.
-- 
+-  해당 섹션에서는 위의 두 방법들을 model의 정확도를 희생시키지 않고 사용하게 할 수 있는 다양한 기술에 대해 논의하고자 함.
+
+###  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTY2MzA4MSwtNjY3NjQ3NDk2LC0yNj
-EyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbLTE1ODYyMzQwNjAsLTY2NzY0NzQ5NiwtMj
+YxMjI3ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
