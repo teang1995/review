@@ -50,9 +50,12 @@
 ###  A. Large-batch training
 - convex문제를 풀 때, batch size가 증가하면 수렴이 느려진다고 알려져있음.
 - nn에서도 비슷한 결과가 나타남이 보여짐.
-- 
+- 이러한 문제를 해결하기 위해 제안된 방법들을 소개
+
+	#### A1. Linear scaling learning rate
+	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTM3MTQ2NiwtNDMxNDI1MTQzLC02Nj
+eyJoaXN0b3J5IjpbMTA3MDY2MjM1MiwtNDMxNDI1MTQzLC02Nj
 c2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQx
 MTddfQ==
 -->
