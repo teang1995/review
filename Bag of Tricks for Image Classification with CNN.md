@@ -143,9 +143,9 @@ cosine decay와 step decay의 성능 비교
 - cross entropy의 정의에 따라, $l(p,q) = -log(q_y) = -z_y + log( \sum_{i=1}^{K}exp(z_i))$임을 알 수 있다. 
 - 최적화된 해는 $z_y = inf$ 일 때(loss가 최소일 때)임을 알 수 있는데, 이 경우 $z_y$는 무한정 커지고 나머지 확률들은 무척 작아져 overfitting 을 야기하게 된다.
 - 이러한 이유로, label smoothing이 제안되었다. 
-- $z^*_i$
+- $z^*_i  ={i=1}^{K}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzQyNDIyMSwtMjAwMzAzOTc2LDIxND
+eyJoaXN0b3J5IjpbMTA3NTU5ODM0NiwtMjAwMzAzOTc2LDIxND
 A4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgwNzg2LC03Mjk4ODQz
 OTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNiwtNDMxNDI1MTQzLC
 02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAx
