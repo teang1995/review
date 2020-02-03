@@ -68,10 +68,10 @@
 	- resNet은 여러 개의 residual block으로 구성됨.
 	- 입력이 $x$ 일 때, 출력은 $x + block(x)$으로 표현할 수 있음.
 	- block의 마지막엔 BN(batch normalization) 적용.
-	- 
+	- 입력값 $x$에 정규화를 적용한 결과를 $
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODA4OTQ1MCwxNTg2NzQ3OTM4LC0xOT
+eyJoaXN0b3J5IjpbLTk0MzQ1ODY1NSwxNTg2NzQ3OTM4LC0xOT
 I1NzExNzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3
 ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
