@@ -112,9 +112,13 @@ batch size를 증가시키고, 제안된 heuristics를 적용시켰을 때의 �
 - Input Stem의 7*7 conv를 여러 개의 3*3 conv로 변경.
 
 ### ResNet-D
-- ResNety
+- ResNet-B에 영감을 받았음.
+- ResNet-B의 1*1,stride = 2인 conv layer에서 3/4의 정보가 손실됨.
+- 이를 avg-pooling으로 대체하여 손실되는 정보가 없도록 함.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTQ1NjIwNiwtMjA1NTQ4ODY4Miw3OT
+eyJoaXN0b3J5IjpbLTkzNTEzNjg3MSwtMjA1NTQ4ODY4Miw3OT
 A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
 NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
 EyNTE4NjM1NDcsMTQ2MDE3NDExN119
