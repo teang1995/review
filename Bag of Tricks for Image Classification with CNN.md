@@ -74,9 +74,12 @@
 
 	#### A4. No bias decay
 	- weight decay는 보통 weight와 bias를 가지는 모든 학습되는 파라미터에 적용됨.
-	- 이
+	- 이는 모든 파라미터에 L2 regularization을 적용하는 것과 비슷하여, 그 값들을 0에 수렴하게 함.
+	- 이는 conv layer, fc layer에만 적용되고,BN에는 적용되지 않음.
+
+### B. Low- precision
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDkzMDQzNjMsMTU4Njc0NzkzOCwtMT
-kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
-Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbMTU1OTcxMTU0NywxNTg2NzQ3OTM4LC0xOT
+I1NzExNzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3
+ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
