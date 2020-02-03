@@ -64,9 +64,11 @@
 	- 따라서, 매우 작은 learning rate로 출발해  특정 시점까지 원하는 learning ratedp 도달하게 함.
 	- Goyal은 0에서 시작해 **선형적**으로 learning rate를 증가시키는 방법을 제안.(5epoch까지 warm-up을 적용함.)
 
-	###
+	#### A3. zero \ gamma 
+	 
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDY3OTYyOCwtMTkyNTcxMTczNiwtND
+eyJoaXN0b3J5IjpbMTU4Njc0NzkzOCwtMTkyNTcxMTczNiwtND
 MxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYz
 NTQ3LDE0NjAxNzQxMTddfQ==
 -->
