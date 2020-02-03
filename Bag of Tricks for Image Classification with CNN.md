@@ -53,9 +53,10 @@
 - 이러한 문제를 해결하기 위해 제안된 방법들을 소개
 
 	#### A1. Linear scaling learning rate
-	 
+	 - SGD 에서 batch size를 키우면 그 기댓값은 일정하지만, variance는 줄어듦.
+	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDY2MjM1MiwtNDMxNDI1MTQzLC02Nj
-c2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQx
-MTddfQ==
+eyJoaXN0b3J5IjpbLTE5MjU3MTE3MzYsLTQzMTQyNTE0MywtNj
+Y3NjQ3NDk2LC0yNjEyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0
+MTE3XX0=
 -->
