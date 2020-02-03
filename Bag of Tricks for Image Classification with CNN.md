@@ -26,13 +26,13 @@
 
 ### Baseline Training Procedure
 1.  이미지를 임의로 샘플링해 32bit float형으로 디코딩함.
-2.  이미지를 random - crop하여 224 * 224 size로 resize함.
+2.  이미지를 random - crop하여 224 x 224 size로 resize함.
 3.  0.5의 확률로 horizontal flip 수행.
 4.  hue,saturation,brightness를 [0.6,1.4] 에 따른 정규화함.
-5.  pca noise를 추가해 ???
+5.  pca noise를 추가해 normalization해줌.
 6.  RGB channel을 각각 [123.68,58.393], [116.779,57.12],[103.939,57.375]에 따라 정규화함.
 
-- Validation 중 짧은 쪽을 256 pixel로 resize하고, 224 * 224 size로 center crop함. 
+- Validation 중 짧은 쪽을 256 pixel로 resize하고, 224 x 224 size로 center crop함. 
 - conv layer, fcn의 weight들은 Xavier Initialization을 따름. 
 -  batch normalization의 감마는1, 베타는 0으로 초기화.
 -  모든 bias는 0으로 초기화됨.
@@ -138,10 +138,11 @@ ResNet baseline과 ResNet - B,C,D의 성능 비교.
 cosine decay와 step decay의 성능 비교
 
 ### Label Smoothing
--  image classification을 위한 신경망의 마지막 단은 
+-  image classification을 위한 신경망의 마지막 fcn은 class의 갯수와 동일하게 설정, 이를 K라 함.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDg3NDA2OCwtMjA1NTQ4ODY4Miw3OT
-A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
-NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
-EyNTE4NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbLTIwMDMwMzk3NiwyMTQwODc0MDY4LC0yMD
+U1NDg4NjgyLDc5MDk4MDc4NiwtNzI5ODg0MzkwLDE1ODY3NDc5
+MzgsLTE5MjU3MTE3MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC
+0yNjEyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
 -->
