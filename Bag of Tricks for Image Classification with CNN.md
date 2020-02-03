@@ -83,9 +83,10 @@
 - 최근의 하드웨어는 더 작은 크기의 데이터 타입의 연산에서 좋은 결과를 보임.
 - 예를 들면, V100을 기준으로 FP32에서 FP16으로 자료형을 바꾸었을 때 학습 속도가 2~3배 가속됨을 확인할 수 있었음.
 - 이러한 장점에도 불구하고, FP16은 표현할 수 있는 범위가 적어 학습 과정에서 문제가 발생함.
-- Micikevicius는 
+- Micikevicius는 FP16으로만 구성된 신경망을 구성하고, 학습 과정에서 FP32로 복사하는 모델을 제안함.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcwODQ2MzgsMTU4Njc0NzkzOCwtMT
-kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
-Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOT
+I1NzExNzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3
+ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
