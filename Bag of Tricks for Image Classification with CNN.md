@@ -163,11 +163,13 @@ label3 = $\lambda$ label1 + $(1-\lambda)$label2
 ![enter image description here](https://ifh.cc/g/WCtkn.jpg)
 
 - 네 개의 refinements들에 대해 실험 진행.
-- 
+	1. cosine learning rate decay 적용함.
+	2. $\epsilon = 0.1$로 두고 label smoothing.
+	3. distillation 위해 T=20으로 두고, teacher model은 ResNet-D-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDYwMTEwMiwxNDA0NTU0NjEzLC0yMD
+eyJoaXN0b3J5IjpbLTQ5OTUzMDU1MSwxNDA0NTU0NjEzLC0yMD
 AzMDM5NzYsMjE0MDg3NDA2OCwtMjA1NTQ4ODY4Miw3OTA5ODA3
 ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzExNzM2LC
 00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4
