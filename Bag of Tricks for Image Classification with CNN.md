@@ -108,10 +108,14 @@ batch size를 증가시키고, 제안된 heuristics를 적용시켰을 때의 �
 - stride = 2인 layer를 1*1conv layer와 순서를 바꾸어 손실되는 정보가 없게 함.
 
 ### ResNet-C
-- 
+- Input Stem을 바꾼 tweak.
+- Input Stem의 7*7 conv를 여러 개의 3*3 conv로 변경.
+
+### ResNet-D
+- ResNety
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU0ODg2ODIsNzkwOTgwNzg2LC03Mj
-k4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNiwtNDMxNDI1
-MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LD
-E0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbMTA5OTQ1NjIwNiwtMjA1NTQ4ODY4Miw3OT
+A5ODA3ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzEx
+NzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLD
+EyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
