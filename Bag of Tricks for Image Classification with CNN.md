@@ -160,13 +160,16 @@ label3 = $\lambda$ label1 + $(1-\lambda)$label2
 - $\lambda$는 [0,1]에서 Beta($\alpha$,$\alpha$)의 분포를 따라서 임의로 추출된 변수.
 
 ### Experiments Results
+![enter image description here](https://ifh.cc/g/WCtkn.jpg)
 
+- 네 개의 refinements들에 대해 실험 진행.
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA5Mjg0ODEsMTQwNDU1NDYxMywtMj
-AwMzAzOTc2LDIxNDA4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgw
-Nzg2LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNi
-wtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUx
-ODYzNTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbLTQ5NDYwMTEwMiwxNDA0NTU0NjEzLC0yMD
+AzMDM5NzYsMjE0MDg3NDA2OCwtMjA1NTQ4ODY4Miw3OTA5ODA3
+ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzExNzM2LC
+00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4
+NjM1NDcsMTQ2MDE3NDExN119
 -->
