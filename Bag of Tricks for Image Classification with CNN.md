@@ -64,11 +64,12 @@
 	- 따라서, 매우 작은 learning rate로 출발해  특정 시점까지 원하는 learning ratedp 도달하게 함.
 	- Goyal은 0에서 시작해 **선형적**으로 learning rate를 증가시키는 방법을 제안.(5epoch까지 warm-up을 적용함.)
 
-	#### A3. zero $$\ gamma$$
-	 
+	#### A3. zero $\gamma$
+	- resNet은 여러 개의 residual block으로 구성됨.
+	- 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQ5NjI2NzAsMTU4Njc0NzkzOCwtMT
-kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
-Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbMTAxNjM2NDA0MCwxNTg2NzQ3OTM4LC0xOT
+I1NzExNzM2LC00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3
+ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
