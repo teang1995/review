@@ -100,8 +100,14 @@ batch size를 증가시키고, 제안된 heuristics를 적용시켰을 때의 �
 
 ![enter image description here](https://ifh.cc/g/5hXoz.jpg)
 
+위의 base line을 tweak한 ResNet-B와 ResNet-C를 본 후, 다음 섹션에서는 ResNet-D를 제안함.
+
+
+
+### ResNet-B
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzYzNjUwMSw3OTA5ODA3ODYsLTcyOT
+eyJoaXN0b3J5IjpbMTM3Mzk0ODgwMyw3OTA5ODA3ODYsLTcyOT
 g4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzExNzM2LC00MzE0MjUx
 NDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4NjM1NDcsMT
 Q2MDE3NDExN119
