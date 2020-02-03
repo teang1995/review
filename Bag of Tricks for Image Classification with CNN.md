@@ -139,9 +139,10 @@ cosine decay와 step decay의 성능 비교
 
 ### Label Smoothing
 -  image classification을 위한 신경망의 마지막 fcn은 class의 갯수와 동일하게 설정, 이를 K라 함.
-- -cross entropy에 따라서 loss를 구해보면, $l(p,q)=-\sum_{i=1}{K} p_ilogq_i$
+- -cross entropy에 따라서 loss를 구해보면, $l(p,q)=-\sum_{i=1}^{K} {p_ilogq_i}$이다. 
+- cross entropy의 정의에 따라, $l(p,q) = 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzMyNzM1MiwtMjAwMzAzOTc2LDIxND
+eyJoaXN0b3J5IjpbLTU3MTUyNjg3MiwtMjAwMzAzOTc2LDIxND
 A4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgwNzg2LC03Mjk4ODQz
 OTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNiwtNDMxNDI1MTQzLC
 02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAx
