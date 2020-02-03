@@ -59,9 +59,12 @@
 	 - 예를 들면 기존의 batch size가 256 , learning rate가 0.1일 때, 증가된 batch size를 b라고 하면 learning rate를 0.1 * b/256으로 사용한다는 의미.
 
 	#### A2. Learning rate warmup
-	- 학습 초
+	- 학습 초반엔 모든 파라미터들이 랜덤으로 초기화돼있음.
+	- 너무 큰 learning rate를 사용하는 것은 수치적으로 불안정한 상태를 야기함.
+	- 따라서, 매우 작은 learning rate로 출발해  특정 시점까지 원하는 learning ratedp 도달하게 함.
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzODg5MjI2LC0xOTI1NzExNzM2LC00Mz
-E0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4NjM1
-NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbMTgwNzkxMTUxNywtMTkyNTcxMTczNiwtND
+MxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYz
+NTQ3LDE0NjAxNzQxMTddfQ==
 -->
