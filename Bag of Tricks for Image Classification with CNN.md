@@ -56,9 +56,9 @@
 	 - SGD 에서 batch size를 키우면 그 기댓값은 일정하지만, variance는 줄어듦.
 	 - 배치 크기를 키우면, 노이즈가 줄어든다는 의미.
 	 - 이를 통해 learning rate를 키울 수 있게 됨.
-	 - 
+	 - 예를 들면 기존의 batch size가 256 , learning rate가 0.1일 때, 증가된 batch size를 b라고 하면 learning rate를 0.1 * b/256으로 늘
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTU3NTEwNywtMTkyNTcxMTczNiwtND
-MxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYz
-NTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbMjU2OTQ0MTY5LC0xOTI1NzExNzM2LC00Mz
+E0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4NjM1
+NDcsMTQ2MDE3NDExN119
 -->
