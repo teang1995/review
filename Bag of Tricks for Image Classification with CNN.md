@@ -81,9 +81,11 @@
 - 신경망은 대부분 32bit floating point type으로 학습 진행.
 - 이는 저장과 연산에도 해당되는 내용.
 - 최근의 하드웨어는 더 작은 크기의 데이터 타입의 연산에서 좋은 결과를 보임.
-- 예를 들면, V100을 기준으로 FP32에서 FP16dmfh
+- 예를 들면, V100을 기준으로 FP32에서 FP16으로 자료형을 바꾸었을 때 학습 속도가 2~3배 가속됨을 확인할 수 있었음.
+- 이러한 장점에도 불구하고, FP16은 표현할 수 있는 범위가 적어 학습 과정에서 문제가 발생함.
+- Micikevicius는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMjczMTIyLDE1ODY3NDc5MzgsLTE5Mj
-U3MTE3MzYsLTQzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4
-OTEsMTI1MTg2MzU0NywxNDYwMTc0MTE3XX0=
+eyJoaXN0b3J5IjpbLTE4NjcwODQ2MzgsMTU4Njc0NzkzOCwtMT
+kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
+Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
