@@ -150,9 +150,11 @@ cosine decay와 step decay의 성능 비교
 - p가 정답의 확률  분포, z와 r은 각각 student,teacher model의 fc layer의 출력이라 하자.
 - 이  때 새로운 loss가 다음과 같이 정의된다.
 - $L = l(p,softmax(z)) + T^2l(softmax(r/T),softmax(z/T))$
-- T는 
+- T는 teacher model의 prediction을 빼내기 위해 softmax의 출력을 smooth하기 위한 hyper-parameter이다.
+
+### Mixup Train
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE2NzYzMjUsMTQwNDU1NDYxMywtMj
+eyJoaXN0b3J5IjpbLTE4MjUxMDEyMTgsMTQwNDU1NDYxMywtMj
 AwMzAzOTc2LDIxNDA4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgw
 Nzg2LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNi
 wtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUx
