@@ -70,9 +70,13 @@
 	- block의 마지막엔 BN(batch normalization) 적용.
 	- BN은 입력값 $x$에 정규화를 적용한 결과를 $\hat x$라 하고,  이에 대해 $\gamma\hat x + \beta$ 반환.
 	- $\gamma$,$\beta$는 각각 1,0으로 초기화되는 학습 가능한 파라미터들.
-	- 따라서 초기에는 입력이 그대로 전달돼 학습이 빨라지게 ㄷ
+	- 따라서 초기에는 입력이 그대로 전달돼 학습이 빨라지게 된다.
+
+	#### A4. No bias decay
+	- weight decay는 보통 weight와 bias를 가지는 모든 학습되는 파라미터에 적용됨.
+	- 이
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzExNjQzMjcsMTU4Njc0NzkzOCwtMT
+eyJoaXN0b3J5IjpbLTEwNDkzMDQzNjMsMTU4Njc0NzkzOCwtMT
 kyNTcxMTczNiwtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIy
 Nzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
