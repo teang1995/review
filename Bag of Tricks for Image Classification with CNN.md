@@ -48,9 +48,11 @@
 -  해당 섹션에서는 위의 두 방법들을 model의 정확도를 희생시키지 않고 사용하게 할 수 있는 다양한 기술에 대해 논의하고자 함.
 
 ###  A. Large-batch training
-- convex문제를 풀 때, batch size
+- convex문제를 풀 때, batch size가 증가하면 수렴이 느려진다고 알려져있음.
+- nn에서도 비슷한 결과가 나타남이 보여짐.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ1NzYyNTAsLTQzMTQyNTE0MywtNj
-Y3NjQ3NDk2LC0yNjEyMjc4OTEsMTI1MTg2MzU0NywxNDYwMTc0
-MTE3XX0=
+eyJoaXN0b3J5IjpbLTgzOTM3MTQ2NiwtNDMxNDI1MTQzLC02Nj
+c2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAxNzQx
+MTddfQ==
 -->
