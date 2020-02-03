@@ -32,8 +32,10 @@
 5.  pca noise를 추가해 ???
 6.  RGB channel을 각각 [123.68,58.393], [116.779,57.12],[103.939,57.375]에 따라 정규화함.
 
-Validation 중 짧은 쪽을 256 pixel로 resize하고, 224 * 224 size로 center crop함. 
+- Validation 중 짧은 쪽을 256 pixel로 resize하고, 224 * 224 size로 center crop함. 
+-  batch normalization의 감마는1, 베타는 0으로 초기화.
+-  optimizer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNT
-E4NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbLTE1NzQ3MTM2MzIsLTY2NzY0NzQ5NiwtMj
+YxMjI3ODkxLDEyNTE4NjM1NDcsMTQ2MDE3NDExN119
 -->
