@@ -153,11 +153,12 @@ cosine decay와 step decay의 성능 비교
 - T는 teacher model의 prediction을 빼내기 위해 softmax의 출력을 smooth하기 위한 hyper-parameter이다.
 
 ### Mixup Training
-- Mixup이란, 이미지 두 개를 섞는 augmentatio
+- Mixup이란, 이미지 두 개를 섞는 augmentation기법.
+- (img1,label1),(img
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk3Nzk0MzAsMTQwNDU1NDYxMywtMj
-AwMzAzOTc2LDIxNDA4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgw
-Nzg2LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNi
-wtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUx
-ODYzNTQ3LDE0NjAxNzQxMTddfQ==
+eyJoaXN0b3J5IjpbMjAyNDcwMDMyOSwxNDA0NTU0NjEzLC0yMD
+AzMDM5NzYsMjE0MDg3NDA2OCwtMjA1NTQ4ODY4Miw3OTA5ODA3
+ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzExNzM2LC
+00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4
+NjM1NDcsMTQ2MDE3NDExN119
 -->
