@@ -39,7 +39,7 @@
 -  optimizer는 NAG(Nesterov Accelerated Gradient)가 사용됨. 
 -  8개의 Nvidia V100 Gpu가 사용됐고, 배치 사이즈는 256으로 설정
 -  learning rate는 0.1로 초기화되고, 30 epoch마다 1/10으로 줄어듦.
-- ImageNet(ISLVRC2012-
+- ImageNet(ISLVRC2012-1000classes)로 학습 진행.
 ### Experiment Results
 ![table2](https://ifh.cc/g/Fy8gB.png)
 
@@ -169,14 +169,14 @@ label3 = $\lambda$ label1 + $(1-\lambda)$label2
 	4. mixup model에서 $\alpha = 0.2$로 두고 200epoch동안 학습 진행.
 
 - distillation은 ResNet에선 잘 작동했지만 Inception-V3나 MobileNet에선 잘 적용되지 않았음.
--  
+-  다른 데이터셋(MIT Places365 dataset)에도 적용됨을 확인할 수 있었음. (Table7)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Njg4Nzg0NSwxNDA0NTU0NjEzLC0yMD
-AzMDM5NzYsMjE0MDg3NDA2OCwtMjA1NTQ4ODY4Miw3OTA5ODA3
-ODYsLTcyOTg4NDM5MCwxNTg2NzQ3OTM4LC0xOTI1NzExNzM2LC
-00MzE0MjUxNDMsLTY2NzY0NzQ5NiwtMjYxMjI3ODkxLDEyNTE4
-NjM1NDcsMTQ2MDE3NDExN119
+eyJoaXN0b3J5IjpbLTI4MTY1MzYzLDE0MDQ1NTQ2MTMsLTIwMD
+MwMzk3NiwyMTQwODc0MDY4LC0yMDU1NDg4NjgyLDc5MDk4MDc4
+NiwtNzI5ODg0MzkwLDE1ODY3NDc5MzgsLTE5MjU3MTE3MzYsLT
+QzMTQyNTE0MywtNjY3NjQ3NDk2LC0yNjEyMjc4OTEsMTI1MTg2
+MzU0NywxNDYwMTc0MTE3XX0=
 -->
