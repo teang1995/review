@@ -149,11 +149,12 @@ cosine decay와 step decay의 성능 비교
 - 학습 과정에 distillation loss를 추가해 teacher model과의 차이를 줄이도록 한다. 
 - p가 정답의 확률  분포, z와 r은 각각 student,teacher model의 fc layer의 출력이라 하자.
 - 이  때 새로운 loss가 다음과 같이 정의된다.
-- $L(
+- $L = l(p,softmax(z)) + T^2l(softmax(r/T),softmax(z/T))$
+- T는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDU1NDYxMywtMjAwMzAzOTc2LDIxND
-A4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgwNzg2LC03Mjk4ODQz
-OTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNiwtNDMxNDI1MTQzLC
-02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUxODYzNTQ3LDE0NjAx
-NzQxMTddfQ==
+eyJoaXN0b3J5IjpbLTE4NzE2NzYzMjUsMTQwNDU1NDYxMywtMj
+AwMzAzOTc2LDIxNDA4NzQwNjgsLTIwNTU0ODg2ODIsNzkwOTgw
+Nzg2LC03Mjk4ODQzOTAsMTU4Njc0NzkzOCwtMTkyNTcxMTczNi
+wtNDMxNDI1MTQzLC02Njc2NDc0OTYsLTI2MTIyNzg5MSwxMjUx
+ODYzNTQ3LDE0NjAxNzQxMTddfQ==
 -->
