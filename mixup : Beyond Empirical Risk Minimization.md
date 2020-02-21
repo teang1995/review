@@ -34,8 +34,8 @@ loss function $l$의 평균을 최소화시켰다.
 $$R(f) =\int l(f(x),y) \, dP(x,y) $$
  
 - 불행하게도, data분포 $P$는 대부분의 실용적인 상황에서 알 수 없었다.
-- 대신, 우리는  보통은 $D ={(x$
+- 대신, 우리는  보통은 $D =${(x_i)}$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTA1MTYxMCwtMTgwNjc0OTI1XX0=
+eyJoaXN0b3J5IjpbMTM4NTI1OTU3MCwtMTgwNjc0OTI1XX0=
 -->
