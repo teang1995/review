@@ -34,8 +34,9 @@ loss function $l$의 평균을 최소화시켰다.
 $$R(f) =\int l(f(x),y) \, dP(x,y) $$
  
 - 불행하게도, data분포 $P$는 대부분의 실용적인 상황에서 알 수 없었다.
-- 대신, 우리는  보통은 $D =$${(x_i,y_i)}^n_{i=1}$
+- 대신, 우리는  보통은 $D =$${(x_i,y_i)}^n_{i=1}$ 의 training data를 알 수 있다.
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MDM1NzUxLC0xODA2NzQ5MjVdfQ==
+eyJoaXN0b3J5IjpbLTE1NzY4NDE5OCwtMTgwNjc0OTI1XX0=
 -->
